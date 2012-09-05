@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331EB10715F71B1400DD29E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331EB10615F71B1400DD29E1 /* UIKit.framework */; };
+		331EB10915F71B1400DD29E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331EB10815F71B1400DD29E1 /* Foundation.framework */; };
+		331EB10B15F71B1400DD29E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331EB10A15F71B1400DD29E1 /* CoreGraphics.framework */; };
+		331EB11115F71B1400DD29E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 331EB10F15F71B1400DD29E1 /* InfoPlist.strings */; };
+		331EB11315F71B1400DD29E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 331EB11215F71B1400DD29E1 /* main.m */; };
+		331EB11715F71B1400DD29E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 331EB11615F71B1400DD29E1 /* AppDelegate.m */; };
+		331EB11A15F71B1400DD29E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331EB11815F71B1400DD29E1 /* MainStoryboard.storyboard */; };
+		331EB11D15F71B1400DD29E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331EB11C15F71B1400DD29E1 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		331EB10215F71B1400DD29E1 /* MultiVideoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiVideoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		331EB10615F71B1400DD29E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		331EB10815F71B1400DD29E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		331EB10A15F71B1400DD29E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		331EB10E15F71B1400DD29E1 /* MultiVideoPlay-Info.plist */ = {isa = PBXFileReference; path = "MultiVideoPlay-Info.plist"; sourceTree = "<group>"; };
+		331EB11015F71B1400DD29E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		331EB11215F71B1400DD29E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		331EB11415F71B1400DD29E1 /* MultiVideoPlay-Prefix.pch */ = {isa = PBXFileReference; path = "MultiVideoPlay-Prefix.pch"; sourceTree = "<group>"; };
+		331EB11515F71B1400DD29E1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		331EB11615F71B1400DD29E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		331EB11915F71B1400DD29E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		331EB11B15F71B1400DD29E1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		331EB11C15F71B1400DD29E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331EB0FF15F71B1400DD29E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331EB10715F71B1400DD29E1 /* UIKit.framework in Frameworks */,
+				331EB10915F71B1400DD29E1 /* Foundation.framework in Frameworks */,
+				331EB10B15F71B1400DD29E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331EB0F715F71B1300DD29E1 = {
+			isa = PBXGroup;
+			children = (
+				331EB10C15F71B1400DD29E1 /* MultiVideoPlay */,
+				331EB10515F71B1400DD29E1 /* Frameworks */,
+				331EB10315F71B1400DD29E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		331EB10315F71B1400DD29E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331EB10215F71B1400DD29E1 /* MultiVideoPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		331EB10515F71B1400DD29E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				331EB10615F71B1400DD29E1 /* UIKit.framework */,
+				331EB10815F71B1400DD29E1 /* Foundation.framework */,
+				331EB10A15F71B1400DD29E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		331EB10C15F71B1400DD29E1 /* MultiVideoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				331EB11515F71B1400DD29E1 /* AppDelegate.h */,
+				331EB11615F71B1400DD29E1 /* AppDelegate.m */,
+				331EB11815F71B1400DD29E1 /* MainStoryboard.storyboard */,
+				331EB11B15F71B1400DD29E1 /* ViewController.h */,
+				331EB11C15F71B1400DD29E1 /* ViewController.m */,
+				331EB10D15F71B1400DD29E1 /* Supporting Files */,
+			);
+			path = MultiVideoPlay;
+			sourceTree = "<group>";
+		};
+		331EB10D15F71B1400DD29E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				331EB10E15F71B1400DD29E1 /* MultiVideoPlay-Info.plist */,
+				331EB10F15F71B1400DD29E1 /* InfoPlist.strings */,
+				331EB11215F71B1400DD29E1 /* main.m */,
+				331EB11415F71B1400DD29E1 /* MultiVideoPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331EB10115F71B1400DD29E1 /* MultiVideoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331EB12015F71B1400DD29E1 /* Build configuration list for PBXNativeTarget "MultiVideoPlay" */;
+			buildPhases = (
+				331EB0FE15F71B1400DD29E1 /* Sources */,
+				331EB0FF15F71B1400DD29E1 /* Frameworks */,
+				331EB10015F71B1400DD29E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiVideoPlay;
+			productName = MultiVideoPlay;
+			productReference = 331EB10215F71B1400DD29E1 /* MultiVideoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		331EB0F915F71B1300DD29E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 331EB0FC15F71B1300DD29E1 /* Build configuration list for PBXProject "MultiVideoPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 331EB0F715F71B1300DD29E1;
+			productRefGroup = 331EB10315F71B1400DD29E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331EB10115F71B1400DD29E1 /* MultiVideoPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331EB10015F71B1400DD29E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331EB11115F71B1400DD29E1 /* InfoPlist.strings in Resources */,
+				331EB11A15F71B1400DD29E1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331EB0FE15F71B1400DD29E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331EB11315F71B1400DD29E1 /* main.m in Sources */,
+				331EB11715F71B1400DD29E1 /* AppDelegate.m in Sources */,
+				331EB11D15F71B1400DD29E1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		331EB10F15F71B1400DD29E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331EB11015F71B1400DD29E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		331EB11815F71B1400DD29E1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331EB11915F71B1400DD29E1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		331EB11E15F71B1400DD29E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		331EB11F15F71B1400DD29E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331EB12115F71B1400DD29E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiVideoPlay/MultiVideoPlay-Prefix.pch";
+				INFOPLIST_FILE = "MultiVideoPlay/MultiVideoPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		331EB12215F71B1400DD29E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiVideoPlay/MultiVideoPlay-Prefix.pch";
+				INFOPLIST_FILE = "MultiVideoPlay/MultiVideoPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331EB0FC15F71B1300DD29E1 /* Build configuration list for PBXProject "MultiVideoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331EB11E15F71B1400DD29E1 /* Debug */,
+				331EB11F15F71B1400DD29E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331EB12015F71B1400DD29E1 /* Build configuration list for PBXNativeTarget "MultiVideoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331EB12115F71B1400DD29E1 /* Debug */,
+				331EB12215F71B1400DD29E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 331EB0F915F71B1300DD29E1 /* Project object */;
+}
